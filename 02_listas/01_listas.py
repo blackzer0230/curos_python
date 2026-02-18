@@ -38,25 +38,56 @@ print(surname)
 print(my_list + my_other_list)
 
 
+# python es de tipado dinamico y se cambia mucho
+my_list = "hola choso"
+print(my_list)
+print(type(my_list))
 
 
 
+# como definir una constante en python? no se puede, pero se puede usar mayusculas para indicar que no se debe cambiar
+# CONSTS_PI = 3.1416
+# CONTS_NAME = "choso gonlez"
 
 
+# agregar al final
+my_other_list.append("lovesthe")
+print(my_other_list)
+
+# insertar en una posicion
+my_other_list.insert(1, "azul")
+print(my_other_list)
+
+my_other_list[1] = "Rojo"
+print(my_other_list)
 
 
+# eliminar el primero que vea
+my_other_list.remove("Rojo")
+print(my_other_list)
+
+# eliminar pero quedarse con ese valor
+my_other_list.pop()
+print(my_other_list)
+
+del my_other_list[2]
 
 
+my_new_list = my_other_list.copy()
+
+my_other_list.clear()
+print(my_other_list)
+print(my_new_list)
+
+my_new_list.reverse()
+print(my_new_list)
 
 
+# numerooooooss
+my_new_list.sort()
+print(my_new_list)
 
-
-
-
-
-
-
-
+# explicar revanadas
 
 
 
