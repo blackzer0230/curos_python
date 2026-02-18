@@ -84,12 +84,13 @@ print(my_new_list)
 
 
 # numerooooooss
-my_new_list.sort()
-print(my_new_list)
+my_num_list = [6, 5, 3, 2, 1]
+my_num_list.sort()
+print(my_num_list)
 
 # explicar revanadas
-
-
+my_revanada_list = my_num_list[2 : 4]
+print(my_revanada_list)
 
 
 
