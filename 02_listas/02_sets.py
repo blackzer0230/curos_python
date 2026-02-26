@@ -74,9 +74,14 @@ print(diferencia)
 sim_diff = set_a.symmetric_difference(set_b)
 print(sim_diff)
 
+# agregat multiples alementos 
+mi_set = {1, 2, 3}
+mi_set.update([4, 5, 6])
+print(mi_set)
 
-
-
+# copiar un set
+set_original = {1, 2, 3}
+set_copia = set_original.copy()
 
 
 
