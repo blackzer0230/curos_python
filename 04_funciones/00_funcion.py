@@ -48,6 +48,7 @@ defecto("harry", "gonzalez", "choso") # le cambiamos el valor por defecto
 # numeros variables de argumentos
 def argumentos(*texto):
     print(texto)
+    print(type(texto))
 
 argumentos("python", "go", "kotlin", "c++")
 
